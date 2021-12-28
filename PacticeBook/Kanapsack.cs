@@ -10,22 +10,27 @@ namespace PacticeBook
         
         public int CalculateMaxProfit(int[] profit, int[] weights, int capacity, int startIndex) 
         {
-            return this.KnapsackRecursive(profit, weights, capacity, startIndex);
+            int[,] dp = new int[profit.Length ,capacity + 1];
+            return this.KnapsackRecursive(profit, weights, capacity, startIndex, dp);
         }
 
-        private int KnapsackRecursive(int[] profit, int[] weights, int capacity, int startIndex)
+        private int KnapsackRecursive(int[] profit, int[] weights, int capacity, int startIndex, int[,] dp)
         {
             if (capacity == 0 || startIndex >= profit.Length) 
             {
                 return 0;
             }
+            if (dp[startIndex, capacity] > 0)
+                return dp[startIndex, capacity];
             int profit1 = 0;
             if (weights[startIndex] <= capacity)
             {
-                profit1 = profit[startIndex] + KnapsackRecursive(profit, weights, capacity - weights[startIndex], startIndex + 1);
+                profit1 = profit[startIndex] + KnapsackRecursive(profit, weights, capacity - weights[startIndex], startIndex + 1, dp);
             }
-            int profit2 = KnapsackRecursive(profit, weights, capacity, startIndex + 1);
-            return Math.Max(profit1, profit2);            
+            int profit2 = KnapsackRecursive(profit, weights, capacity, startIndex + 1,dp);
+            dp[startIndex, capacity]= Math.Max(profit1, profit2);
+
+            return dp[startIndex, capacity];
         }      
 
     }
