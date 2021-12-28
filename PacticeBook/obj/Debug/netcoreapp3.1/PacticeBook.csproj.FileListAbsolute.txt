@@ -1,0 +1,13 @@
+C:\PracticeQ\PacticeBook\bin\Debug\netcoreapp3.1\PacticeBook.exe
+C:\PracticeQ\PacticeBook\bin\Debug\netcoreapp3.1\PacticeBook.deps.json
+C:\PracticeQ\PacticeBook\bin\Debug\netcoreapp3.1\PacticeBook.runtimeconfig.json
+C:\PracticeQ\PacticeBook\bin\Debug\netcoreapp3.1\PacticeBook.runtimeconfig.dev.json
+C:\PracticeQ\PacticeBook\bin\Debug\netcoreapp3.1\PacticeBook.dll
+C:\PracticeQ\PacticeBook\bin\Debug\netcoreapp3.1\PacticeBook.pdb
+C:\PracticeQ\PacticeBook\obj\Debug\netcoreapp3.1\PacticeBook.csprojAssemblyReference.cache
+C:\PracticeQ\PacticeBook\obj\Debug\netcoreapp3.1\PacticeBook.csproj.CoreCompileInputs.cache
+C:\PracticeQ\PacticeBook\obj\Debug\netcoreapp3.1\PacticeBook.AssemblyInfoInputs.cache
+C:\PracticeQ\PacticeBook\obj\Debug\netcoreapp3.1\PacticeBook.AssemblyInfo.cs
+C:\PracticeQ\PacticeBook\obj\Debug\netcoreapp3.1\PacticeBook.dll
+C:\PracticeQ\PacticeBook\obj\Debug\netcoreapp3.1\PacticeBook.pdb
+C:\PracticeQ\PacticeBook\obj\Debug\netcoreapp3.1\PacticeBook.genruntimeconfig.cache
